@@ -7,7 +7,7 @@
 
   <!-- the application context definition for the springapp DispatcherServlet -->
 
-
+ <!--
     <bean id="productManager" class="springapp.service.SimpleProductManager">
         <property name="products">
             <list>
@@ -32,6 +32,7 @@
         <property name="description" value="Chair"/>
         <property name="price" value="22.79"/>
     </bean>
+-->
 
     <bean id="messageSource" class="org.springframework.context.support.ResourceBundleMessageSource">
         <property name="basename" value="messages"/>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="test/springapp"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.7.0_67">
 		<attributes>
 			<attribute name="owner.project.facets" value="java"/>
@@ -21,5 +22,9 @@
 	<classpathentry kind="lib" path="war/WEB-INF/lib/standard.jar"/>
 	<classpathentry kind="lib" path="war/WEB-INF/lib/hsqldb.jar"/>
 	<classpathentry kind="lib" path="war/WEB-INF/lib/spring-test.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/aspectjrt.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/aspectjweaver.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/commons-dbcp.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/commons-pool.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
